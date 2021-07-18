@@ -38,7 +38,8 @@ fun BudgetManagerNavGraph(
         composable(MainDestinations.HOME_ROUTE) {
             HomeScreen(
                 openDrawer = openDrawer,
-                scaffoldState = scaffoldState
+                scaffoldState = scaffoldState,
+                navigateToAddBudget = actions.navigateToAddBudget
             )
         }
         composable(MainDestinations.ADD_BUDGET) {
@@ -51,6 +52,9 @@ fun BudgetManagerNavGraph(
 }
 
 class MainActions(navController: NavHostController) {
+    val navigateToAddBudget: () -> Unit = {
+        navController.navigate(MainDestinations.ADD_BUDGET)
+    }
     val upPress: () -> Unit = {
         navController.navigateUp()
     }

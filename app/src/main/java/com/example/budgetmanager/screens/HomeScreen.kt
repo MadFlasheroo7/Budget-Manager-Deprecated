@@ -36,6 +36,7 @@ import kotlinx.coroutines.launch
 @Composable
 fun HomeScreen(
     openDrawer: () -> Unit,
+    navigateToAddBudget: () -> Unit,
     scaffoldState: ScaffoldState
 ) {
     val coroutineScope = rememberCoroutineScope()
@@ -81,9 +82,7 @@ fun HomeScreen(
                 extended = true,
                 modifier = Modifier
                     .navigationBarsPadding(bottom = true),
-                onClick = {
-                    navController.navigate(MainDestinations.ADD_BUDGET)
-                }
+                onClick = navigateToAddBudget
             )
         }
     ) {
@@ -134,6 +133,7 @@ fun PreviewHome() {
     BudgetManagerTheme() {
         HomeScreen(
             openDrawer = {},
+            navigateToAddBudget = {},
             scaffoldState = rememberScaffoldState()
         )
     }
