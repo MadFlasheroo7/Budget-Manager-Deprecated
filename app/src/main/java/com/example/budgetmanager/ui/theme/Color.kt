@@ -8,8 +8,8 @@ val DarkGrey700 = Color(0xFF26282F)
 val PastelGreen = Color(0xFFB6FBA4)
 
 val DarkBlue800 = Color(0xFF262446)
-val DarkBlue500 = Color(0xFF333155)
-val DarkBlue600 = Color(0xFF39375B)
+val DarkBlue500 = Color(0xFF39375B)
+val DarkBlue600 = Color(0xFF333155)
 val Teal500 = Color(0xFF1DD3B0)
 
 

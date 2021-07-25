@@ -31,15 +31,6 @@ private val DeepPurpleTheme = lightColors(
     onBackground = Color.White,
     surface = DarkPurple700,
     onSurface = Color.White
-
-    /* Other default colors to override
-    background = Color.White,
-    surface = Color.White,
-    onPrimary = Color.White,
-    onSecondary = Color.Black,
-    onBackground = Color.Black,
-    onSurface = Color.Black,
-    */
 )
 
 private val DarkGrayTheme = lightColors(
@@ -66,12 +57,11 @@ fun BudgetManagerTheme(
 //        val systemUiController = rememberSystemUiController()
 //        SideEffect {
 //            systemUiController.setStatusBarColor(
-//                color = DarkBlue500
 //                color = DarkPurple600
 //            )
 //        }
-        DeepBlueTheme
 //        DeepPurpleTheme
+        DeepBlueTheme
     }
 
     MaterialTheme(
