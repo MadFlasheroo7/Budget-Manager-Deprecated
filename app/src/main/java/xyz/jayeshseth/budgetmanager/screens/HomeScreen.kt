@@ -14,10 +14,10 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.navigation.compose.rememberNavController
-import com.example.budgetmanager.R
-import com.example.budgetmanager.ui.components.InsetAwareTopBar
-import com.example.budgetmanager.ui.components.UserInfoCard
-import com.example.budgetmanager.ui.theme.BudgetManagerTheme
+import xyz.jayeshseth.budgetmanager.R
+import xyz.jayeshseth.budgetmanager.ui.components.InsetAwareTopBar
+import xyz.jayeshseth.budgetmanager.ui.components.UserInfoCard
+import xyz.jayeshseth.budgetmanager.ui.theme.BudgetManagerTheme
 import com.google.accompanist.insets.navigationBarsPadding
 import kotlinx.coroutines.launch
 

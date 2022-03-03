@@ -10,8 +10,8 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.example.budgetmanager.screens.AddBudget
-import com.example.budgetmanager.screens.HomeScreen
+import xyz.jayeshseth.budgetmanager.screens.AddBudget
+import xyz.jayeshseth.budgetmanager.screens.HomeScreen
 import kotlinx.coroutines.launch
 
 @ExperimentalAnimationApi

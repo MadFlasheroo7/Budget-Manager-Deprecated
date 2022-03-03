@@ -5,7 +5,7 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.animation.ExperimentalAnimationApi
 import androidx.core.view.WindowCompat
-import com.example.budgetmanager.ui.theme.BudgetManagerTheme
+import xyz.jayeshseth.budgetmanager.ui.theme.BudgetManagerTheme
 
 class MainActivity : ComponentActivity() {
     @OptIn(ExperimentalAnimationApi::class)

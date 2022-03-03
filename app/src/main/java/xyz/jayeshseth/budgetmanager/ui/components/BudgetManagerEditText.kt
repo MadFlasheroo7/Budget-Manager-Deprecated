@@ -10,8 +10,7 @@ import androidx.compose.ui.graphics.Shape
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.example.budgetmanager.R
-import com.example.budgetmanager.ui.theme.BudgetManagerTheme
+import xyz.jayeshseth.budgetmanager.ui.theme.BudgetManagerTheme
 
 /** Custom made Material TextField
  *

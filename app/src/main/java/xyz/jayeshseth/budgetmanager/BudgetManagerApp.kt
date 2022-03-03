@@ -10,10 +10,10 @@ import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.graphics.Color
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
-import com.example.budgetmanager.ui.navComponents.AppDrawer
-import com.example.budgetmanager.ui.navComponents.BudgetManagerNavGraph
-import com.example.budgetmanager.ui.navComponents.MainDestinations
-import com.example.budgetmanager.ui.theme.BudgetManagerTheme
+import xyz.jayeshseth.budgetmanager.ui.navComponents.AppDrawer
+import xyz.jayeshseth.budgetmanager.ui.navComponents.BudgetManagerNavGraph
+import xyz.jayeshseth.budgetmanager.ui.navComponents.MainDestinations
+import xyz.jayeshseth.budgetmanager.ui.theme.BudgetManagerTheme
 import com.google.accompanist.insets.ProvideWindowInsets
 import com.google.accompanist.systemuicontroller.rememberSystemUiController
 import kotlinx.coroutines.launch

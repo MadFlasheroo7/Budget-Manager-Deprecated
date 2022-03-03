@@ -15,9 +15,9 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.example.budgetmanager.ui.components.BudgetManagerEditText
-import com.example.budgetmanager.ui.components.InsetAwareTopBar
-import com.example.budgetmanager.ui.theme.BudgetManagerTheme
+import xyz.jayeshseth.budgetmanager.ui.components.BudgetManagerEditText
+import xyz.jayeshseth.budgetmanager.ui.components.InsetAwareTopBar
+import xyz.jayeshseth.budgetmanager.ui.theme.BudgetManagerTheme
 import com.google.accompanist.insets.navigationBarsPadding
 
 @Composable
